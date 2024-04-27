@@ -9,7 +9,7 @@
 
 # 📚 Sobre o aplicativo:
 
-Este é um aplicativo de agendamento de eventos desenvolvido como projeto para o curso de desenvolvimento Android do Senac. O aplicativo permite aos usuários visualizarem eventos disponíveis, agendar sua participação e receber notificações sobre eventos futuros.Sobre o projeto 
+Este é um aplicativo de agendamento de eventos desenvolvido como projeto para o curso de Ciência da Computação da Fundação Escola de Comércio Álvares Penteado . O aplicativo permite aos usuários visualizarem eventos disponíveis, agendar sua participação, agendar eventos e receber notificações sobre eventos futuros.
 
 
 
