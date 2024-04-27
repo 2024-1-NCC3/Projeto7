@@ -22,21 +22,13 @@ Este é um aplicativo de agendamento de eventos desenvolvido como projeto para o
 
   # ⚙️ Funcionalidades
 
+- Agenda de eventos
 - Agendar eventos
 - Marcar presença em eventos
-- Agenda de eventos
 - Registro de fotos dos eventos
-- Registro de eventos passados
+- Vizualização de eventos passados
   
 
-# 🤝 Contribuição
-
-- Contribuições são bem-vindas! Se você deseja contribuir para este projeto, siga estas etapas:
-- Faça um fork deste repositório.
-- Crie uma branch para a sua contribuição: git checkout -b minha-contribuicao.
-- Faça suas alterações e faça commit delas: git commit -m 'Adicionando nova funcionalidade'.
-- Envie suas alterações para o seu fork: git push origin minha-contribuicao.
-- Crie um novo Pull Request neste repositório.
 
 
 
