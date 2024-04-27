@@ -19,6 +19,16 @@ Este é um aplicativo de agendamento de eventos desenvolvido como projeto para o
 
 - O BackEnd do app é desenvolvido em Node.js, com o banco de dados SQLite.
 
+
+  # ⚙️ Funcionalidades
+
+- Agendar eventos
+- Marcar presença em eventos
+- Agenda de eventos
+- Registro de fotos dos eventos
+- Registro de eventos passados
+  
+
 # 🤝 Contribuição
 
 - Contribuições são bem-vindas! Se você deseja contribuir para este projeto, siga estas etapas:
