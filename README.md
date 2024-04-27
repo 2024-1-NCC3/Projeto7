@@ -1,8 +1,10 @@
 📅 Aplicativo de Agendamento de Eventos Senac
+
 Este é um aplicativo de agendamento de eventos desenvolvido como projeto para o curso de ciência da computação da Fundação Escola de Comércio Álvares Penteado. O aplicativo permite aos usuários visualizarem eventos disponíveis, agendar sua participação e receber notificações sobre eventos futuros.
 
 
 🚀 Funcionalidades Principais
+
 Visualização de eventos disponíveis.
 
 Agendamento de eventos.
