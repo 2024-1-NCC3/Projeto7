@@ -19,9 +19,9 @@ Este é um aplicativo de agendamento de eventos desenvolvido como projeto para o
 
 - O BackEnd do app é desenvolvido em Node.js, com o banco de dados SQLite.
 
-🤝 Contribuição
-Contribuições são bem-vindas! Se você deseja contribuir para este projeto, siga estas etapas:
+# 🤝 Contribuição
 
+- Contribuições são bem-vindas! Se você deseja contribuir para este projeto, siga estas etapas:
 - Faça um fork deste repositório.
 - Crie uma branch para a sua contribuição: git checkout -b minha-contribuicao.
 - Faça suas alterações e faça commit delas: git commit -m 'Adicionando nova funcionalidade'.
