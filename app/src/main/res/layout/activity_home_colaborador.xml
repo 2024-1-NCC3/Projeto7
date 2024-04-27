@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".HomeColaborador">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="28dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="35dp"
+            android:layout_height="28dp" />
+
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="84dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/senaclogo" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="21dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageViewUltimoEvento"
+            android:layout_width="344dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/retangulo" />
+
+        <TextView
+            android:id="@+id/textViewUltimoEvento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:textColor="@color/azul"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewUltimoEvento"
+            app:layout_constraintEnd_toEndOf="@+id/imageViewUltimoEvento"
+            app:layout_constraintHorizontal_bias="0.162"
+            app:layout_constraintStart_toStartOf="@+id/imageViewUltimoEvento"
+            app:layout_constraintTop_toTopOf="@+id/imageViewUltimoEvento"
+            app:layout_constraintVertical_bias="0.273" />
+
+        <ImageView
+            android:id="@+id/imageViewSobreEvento"
+            android:layout_width="264dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.765"
+            app:srcCompat="@drawable/btnsobreoevento" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_semibold"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="     Eventos"
+        android:textColor="@color/azul"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewCriarEventos"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="TelaCriarEventos"
+            app:srcCompat="@drawable/criareventobtn" />
+
+        <ImageView
+            android:id="@+id/imageViewMeusEventos"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="TelaMeusEventos"
+            app:srcCompat="@drawable/meuseventosbtn" />
+
+        <ImageView
+            android:id="@+id/imageViewGaleria"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="TelaGaleria"
+            app:srcCompat="@drawable/galeriabtn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewCriarEventos"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="criar eventos"
+            android:textAlignment="center"
+            android:textColor="@color/azul" />
+
+        <TextView
+            android:id="@+id/textViewMeusEventos"
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="meus eventos"
+            android:textAlignment="center"
+            android:textColor="@color/azul" />
+
+        <TextView
+            android:id="@+id/textViewGaleria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="galeria"
+            android:textAlignment="center"
+            android:textColor="@color/azul" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="31dp" />
+
+    <ImageView
+        android:id="@+id/imageViewConvidar"
+        android:layout_width="378dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:onClick="TelaConvidar"
+        app:srcCompat="@drawable/convidarbtn" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <ImageView
+        android:id="@+id/imageViewConvites"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:onClick="TelaConvites"
+        app:srcCompat="@drawable/meusconvitesbtn" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:scaleType="fitEnd"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/botoesflutuantes" />
+
+        <ImageView
+            android:id="@+id/imageViewHome"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:clickable="true"
+            android:onClick="TelaHome"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.162"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView11"
+            app:layout_constraintVertical_bias="0.774"
+            app:srcCompat="@drawable/btnhome" />
+
+        <ImageView
+            android:id="@+id/imageViewbtnCriarEventos"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="TelaMeusEventos"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.85"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView11"
+            app:layout_constraintVertical_bias="0.771"
+            app:srcCompat="@drawable/btnmarcados" />
+
+        <ImageView
+            android:id="@+id/imageViewbtnMeusEventos"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="TelaCriarEventos"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView11"
+            app:layout_constraintVertical_bias="0.771"
+            app:srcCompat="@drawable/btncriar" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
