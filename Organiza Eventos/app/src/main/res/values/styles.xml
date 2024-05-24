@@ -1,0 +1,29 @@
+<resources>
+    <!-- Seu tema padrão -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize o tema conforme necessário -->
+    </style>
+
+    <!-- Estilo personalizado para o AlertDialog -->
+    <style name="CustomAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#FF0000</item> <!-- Cor dos botões de ação -->
+        <item name="android:textColorPrimary">@color/azul</item> <!-- Cor do texto primário (título) -->
+        <item name="android:background">#FFFFFF</item> <!-- Cor de fundo do dialog -->
+        <item name="android:buttonBarPositiveButtonStyle">@style/AlertDialogButton</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/AlertDialogButton</item>
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
+    </style>
+
+    <!-- Estilo para os botões do AlertDialog -->
+    <style name="AlertDialogButton" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#FF0000</item> <!-- Cor do texto dos botões -->
+        <item name="android:fontFamily">@font/poppins_medium</item> <!-- Fonte personalizada para os botões -->
+    </style>
+
+    <!-- Estilo para o título do AlertDialog -->
+    <style name="AlertDialogTitle" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/azul</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item> <!-- Fonte personalizada para o título -->
+    </style>
+</resources>

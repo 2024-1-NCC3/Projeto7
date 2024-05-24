@@ -1,0 +1,388 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageViewVoltar2"
+                    android:layout_width="36dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:onClick="mudarTela"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/orange_arrow_circle_left_36" />
+
+                <TextView
+                    android:id="@+id/textViewEditarEvento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Editar Evento"
+                    android:textColor="@color/laranja"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextIdEvento"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/grey_background"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="ID do Evento"
+                android:inputType="none"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <EditText
+                android:id="@+id/editTextCodigo"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/grey_background"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="Código de Oferta"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#cacaca"
+                android:textColorHint="#cacaca"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editTextNomeEvento"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/grey_background"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="Nome do Evento"
+                android:inputType="textAutoComplete"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#cacaca"
+                android:textColorHint="#cacaca"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editTextTipo"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/grey_background"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="Tipo"
+                android:inputType="textAutoComplete"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#cacaca"
+                android:textColorHint="#cacaca"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editTextDesc"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/grey_background"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="Descrição"
+                android:inputType="textAutoComplete"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#cacaca"
+                android:textColorHint="#cacaca"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editTextCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/grey_background"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="Categoria"
+                android:inputType="textAutoComplete"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#cacaca"
+                android:textColorHint="#cacaca"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editTextPublico"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/grey_background"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="Público-Alvo"
+                android:inputType="textAutoComplete"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#cacaca"
+                android:textColorHint="#cacaca"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/editTextLocal"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="64dp"
+                android:layout_marginEnd="64dp"
+                android:background="@drawable/grey_background"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="Local"
+                android:inputType="textAutoComplete|textEmailAddress"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#cacaca"
+                android:textColorHint="#cacaca"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxBelezaEstetica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="32dp"
+                android:buttonTint="@color/laranja"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Beleza e Estética"
+                android:textColor="@color/laranja" />
+
+            <CheckBox
+                android:id="@+id/checkboxBemEstar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="32dp"
+                android:buttonTint="@color/laranja"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Bem-Estar"
+                android:textColor="@color/laranja" />
+
+            <CheckBox
+                android:id="@+id/checkboxComunicacaoMarketing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="32dp"
+                android:buttonTint="@color/laranja"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Comunicação e Marketing"
+                android:textColor="@color/laranja" />
+
+            <CheckBox
+                android:id="@+id/checkboxDesignArtesArquitetura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="32dp"
+                android:buttonTint="@color/laranja"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Design, Artes e Arquitetura"
+                android:textColor="@color/laranja" />
+
+            <CheckBox
+                android:id="@+id/checkboxDesenvolvimentoSocial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="32dp"
+                android:buttonTint="@color/laranja"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Desenvolvimento Social"
+                android:textColor="@color/laranja" />
+
+            <CheckBox
+                android:id="@+id/checkboxEducacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="32dp"
+                android:buttonTint="@color/laranja"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Educação"
+                android:textColor="@color/laranja" />
+
+            <CheckBox
+                android:id="@+id/checkboxGastronomiaAlimentacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="32dp"
+                android:buttonTint="@color/laranja"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Gastronomia e Alimentação"
+                android:textColor="@color/laranja" />
+
+            <CheckBox
+                android:id="@+id/checkboxGestaoNegocios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="32dp"
+                android:buttonTint="@color/laranja"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Gestão e Negócios"
+                android:textColor="@color/laranja" />
+
+            <CheckBox
+                android:id="@+id/checkboxIdiomas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="32dp"
+                android:buttonTint="@color/laranja"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Idiomas"
+                android:textColor="@color/laranja" />
+
+            <CheckBox
+                android:id="@+id/checkboxMeioAmbienteSeguranca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="32dp"
+                android:buttonTint="@color/laranja"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Meio Ambiente, Segurança"
+                android:textColor="@color/laranja" />
+
+            <CheckBox
+                android:id="@+id/checkboxModa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="32dp"
+                android:buttonTint="@color/laranja"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Moda"
+                android:textColor="@color/laranja" />
+
+            <CheckBox
+                android:id="@+id/checkboxSaude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="32dp"
+                android:buttonTint="@color/laranja"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Saúde"
+                android:textColor="@color/laranja" />
+
+            <CheckBox
+                android:id="@+id/checkboxTecnologiaInformacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="32dp"
+                android:buttonTint="@color/laranja"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Tecnologia da informação"
+                android:textColor="@color/laranja" />
+
+            <CheckBox
+                android:id="@+id/checkboxTurismoHospitalidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="32dp"
+                android:buttonTint="@color/laranja"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Turismo e Hospitalidade"
+                android:textColor="@color/laranja" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonSelecionarData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/orange_button"
+                android:fontFamily="@font/poppins_medium"
+                android:onClick="selecionarData"
+                android:text="Selecionar Data"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonSelecionarHora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/orange_button"
+                android:fontFamily="@font/poppins_medium"
+                android:onClick="selecionarHora"
+                android:text="Selecionar Hora"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonSalvar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/orange_button"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Salvar"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
