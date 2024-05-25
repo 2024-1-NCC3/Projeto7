@@ -67,8 +67,10 @@ Esta seção da documentação é dedicada a explicar o frontend do aplicativo d
 
 A tela principal exibe uma lista de eventos agendados, permitindo que os usuários visualizem rapidamente os eventos próximos. Cada evento na lista exibe informações como título, data, hora e local.
 
-![Tela Principal - Lista de Eventos]
-(screenshot_lista_eventos.png)
+<p align="center">
+<img src="https://github.com/2024-1-NCC3/Projeto7/blob/main/screenshot_lista_eventos.png" width="240px" height="520px">
+</p>
+
 #### Funcionalidades:
 
 - **Visualizar Detalhes do Evento**: Os usuários podem tocar em um evento na lista para visualizar mais detalhes, como descrição, participantes e horários.
@@ -80,7 +82,10 @@ A tela principal exibe uma lista de eventos agendados, permitindo que os usuári
 
 Esta tela exibe detalhes completos sobre um evento específico, incluindo título, descrição, data, hora, local e lista de participantes.
 
-![Tela de Detalhes do Evento](screenshot_detalhes_evento.png)
+<p align="center">
+<img src="https://github.com/2024-1-NCC3/Projeto7/blob/main/screenshot_detalhes_evento.png" width="240px" height="520px">
+</p>
+
 
 #### Funcionalidades:
 
@@ -94,7 +99,10 @@ Esta tela exibe detalhes completos sobre um evento específico, incluindo títul
 
 Nesta tela, os usuários podem criar um novo evento preenchendo um formulário com informações como título, descrição, data, hora, local e lista de participantes.
 
-![Tela de Criação/Edição de Evento](screenshot_criacao_evento.png)
+<p align="center">
+<img src="https://github.com/2024-1-NCC3/Projeto7/blob/main/screenshot_criacao_evento.png" width="240px" height="520px">
+</p>
+
 
 #### Funcionalidades:
 
