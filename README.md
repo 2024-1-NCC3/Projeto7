@@ -22,13 +22,13 @@ Este é um aplicativo de agendamento de eventos desenvolvido como projeto para o
 
 # ⚙️ Funcionalidades
 
-- Agenda de eventos
+- Agenda de eventos de toda instituição e do colaborador
 - Agendar eventos
 - Marcar presença em eventos
-- Registro de fotos dos eventos
+- Registro de colaboradores
 - Vizualização de eventos passados
+- Editar eventos
+- Alterar senha
   
-
-
 
 
