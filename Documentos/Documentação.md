@@ -67,7 +67,7 @@ Esta seção da documentação é dedicada a explicar o frontend do aplicativo d
 
 A tela principal exibe uma lista de eventos agendados, permitindo que os usuários visualizem rapidamente os eventos próximos. Cada evento na lista exibe informações como título, data, hora e local.
 
-![Tela Principal - Lista de Eventos](screenshot_lista_eventos.png)
+![Tela Principal - Lista de Eventos](screenshot_criacao_evento.png)
 
 #### Funcionalidades:
 
